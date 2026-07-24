@@ -24,6 +24,7 @@
         <a href="#services">Services</a>
         <a href="#methodology">Methodology</a>
         <a href="#security">Security</a>
+        <a href="#security-agent">Security AI</a>
         <a href="#status">Vibe Status</a>
         <a href="#about">About</a>
         <a class="button button-small" href="#contact">Start Vibing</a>
@@ -116,6 +117,58 @@
       </div>
     </section>
 
+    <section id="security-agent" class="section security-agent-section">
+      <div class="shell">
+        <p class="eyebrow">Confidence-assisted defensive intelligence</p>
+        <div class="section-heading agent-heading">
+          <h2>Meet grep-GPT.</h2>
+          <p>Our security AI agent converts complicated incidents into calm, technically plausible next steps before anyone asks whether the telemetry exists.</p>
+        </div>
+        <div class="agent-layout">
+          <aside class="agent-profile">
+            <div class="agent-portrait"><img src="assets/images/grep.jpg" alt="grep-GPT security AI agent"></div>
+            <div class="agent-online"><i></i> Online</div>
+            <h3>grep-GPT</h3>
+            <p class="agent-role">Principal Security Copilot</p>
+            <p>Built for defenders, responders, architects, and executives who need a diagram before the root cause is available.</p>
+            <dl class="agent-metrics">
+              <div><dt>Confidence</dt><dd>100%</dd></div>
+              <div><dt>Evidence</dt><dd>Pending</dd></div>
+              <div><dt>Hallucinations</dt><dd>Reframed</dd></div>
+            </dl>
+          </aside>
+
+          <div class="agent-console" aria-label="grep-GPT security assistant demonstration">
+            <div class="agent-console-head">
+              <div class="agent-id"><img src="assets/images/grep.jpg" alt=""><div><strong>grep-GPT</strong><span><i></i> Available for incident-adjacent guidance</span></div></div>
+              <span class="agent-badge">DEFENSIVE USE</span>
+            </div>
+            <div id="agent-transcript" class="agent-transcript" aria-live="polite">
+              <div class="chat-message user-message">How do I detect and respond to credential dumping?</div>
+              <div class="chat-message assistant-message">
+                <p>Begin with evidence collection, containment, and credential protection:</p>
+                <div class="response-block"><b>Detect</b><span>Review EDR process and memory-access alerts, suspicious access to LSASS, unusual authentication activity, and lateral-movement indicators.</span></div>
+                <div class="response-block"><b>Respond</b><span>Isolate affected hosts, preserve volatile evidence, reset exposed credentials, and expand the investigation to adjacent systems and identities.</span></div>
+                <div class="response-block"><b>Prevent</b><span>Reduce administrative privilege, enable available credential protections, maintain endpoint controls, and validate that detections actually alert.</span></div>
+                <small>Recommendation confidence: unusually composed</small>
+              </div>
+            </div>
+            <div class="agent-prompts" aria-label="Suggested questions">
+              <button type="button" data-agent-prompt="phishing">Phishing triage</button>
+              <button type="button" data-agent-prompt="ransomware">Ransomware response</button>
+              <button type="button" data-agent-prompt="zero-trust">Zero Trust strategy</button>
+            </div>
+            <form id="agent-form" class="agent-form">
+              <label class="sr-only" for="agent-question">Ask grep-GPT a security question</label>
+              <input id="agent-question" name="question" maxlength="240" autocomplete="off" placeholder="Ask anything about defensive security…">
+              <button type="submit" aria-label="Send question">→</button>
+            </form>
+            <p class="agent-disclaimer">Demonstration agent. Responses are curated locally; no prompt, incident data, or credentials leave this page.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="case-studies" class="section case-studies">
       <div class="shell">
         <p class="eyebrow">Selected outcomes</p>
@@ -138,6 +191,7 @@
           <div><span>Documentation</span><b class="muted">Unobserved</b></div>
           <div><span>Build Pipeline</span><b>Works locally</b></div>
           <div><span>Security</span><b class="muted">Monitoring disabled</b></div>
+          <div><span>Security AI</span><b>Confidently online</b></div>
           <div><span>Founder Wi-Fi</span><b class="warning">Degraded but confident</b></div>
         </div>
       </div>
@@ -162,7 +216,7 @@
     <div class="shell footer-grid">
       <div><a class="brand" href="#top"><span class="brand-mark">⌁</span><span>notsmartdevelopers<span>.com</span></span></a><p class="tagline">All vibes. No <span class="typo">brians</span><span class="correction">brains</span>.</p></div>
       <div><h3>Company</h3><a href="#services">Services</a><a href="#methodology">Methodology</a><a href="#security">Security</a></div>
-      <div><h3>Operational</h3><a href="#status">Vibe Status</a><a href="#case-studies">Case Studies</a><a href="mailto:hello@notsmartdevelopers.com">Contact</a></div>
+      <div><h3>Operational</h3><a href="#security-agent">Security AI</a><a href="#status">Vibe Status</a><a href="#case-studies">Case Studies</a><a href="mailto:hello@notsmartdevelopers.com">Contact</a></div>
     </div>
     <div class="shell footer-bottom"><span>© 2026 Not Smart Developers</span><span>Production is an operational concern.</span></div>
   </footer>
